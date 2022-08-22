@@ -19,7 +19,7 @@ services:
     container_name: gitlab
     image: gitlab/gitlab-ce
     restart: always
-    hostname: 'sisopsti.mutantbr.com'
+    hostname: 'sisopsti.nemezes.xyz'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://sisopsti.mutantbr.com:8443'
